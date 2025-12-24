@@ -1,0 +1,37 @@
+.product-card {
+  width: 200px;
+}
+
+.image-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-box img {
+  width: 100%;
+  display: block;
+}
+
+.add-cart {
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.image-box:hover .add-cart {
+  bottom: 0;
+}
+.product-card {
+  width: 180px;
+}
+
+.image-box img {
+  border-radius: 20px;
+}
